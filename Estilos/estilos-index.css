@@ -1,0 +1,127 @@
+body {
+	/* Este estilo lo e tomado de https://uigradients.com/#DarkOcean
+	con el fin de mejorar el aspecto de la pagina aun asi, muestro 
+	la pagina en donde la consegui*/
+    background: #1c92d2;  
+    background: -webkit-linear-gradient(to right, #4286f4,#a1d1f8 );
+    background: linear-gradient(to right,#4286f4,#a1d1f8);
+    
+}
+.card {
+	border: 1px solid #ffffff;
+}
+.card-login {
+	margin-top: 130px;
+	padding: 18px;
+	max-width: 30rem;
+	/* Este estilo lo e tomado de https://uigradients.com/#DarkOcean
+	con el fin de mejorar el aspecto de la pagina aun asi, muestro 
+	la pagina en donde la consegui*/
+	background: #373B44; 
+	background: -webkit-linear-gradient(to left, #4286f4, #2f3e63); 
+	background: linear-gradient(to left, #4286f4, #2f3e63);
+
+}
+
+.card-header {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 600 !important;
+	margin-top: 10px;
+	border-bottom: 0;
+}
+
+.input-group-prepend span{
+	background-color: #4286f4;
+	width: 50px;
+	color: #ffffff;
+	border:0 !important;
+}
+
+input:focus{
+	outline: 0 0 0 0  !important;
+	box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn{
+	color: #ffffff!important;
+	width: 100%;
+	/* Este estilo lo e tomado de https://uigradients.com/#DarkOcean
+	con el fin de mejorar el aspecto de la pagina aun asi, muestro 
+	la pagina en donde la consegui*/
+	background: #373B44;
+	background: -webkit-linear-gradient(to left, #4286f4, #2f3e63); 
+	background: linear-gradient(to left, #4286f4, #2f3e63);
+}
+
+.login_btn:hover{
+	color: #ffffff;
+	background-color: #4286f4;
+}
+
+.btn-outline-danger {
+	color: #ffffff;
+	font-size: 18px;
+	background-color: #4286f4;
+	background-image: none;
+	border-color: #ffffff;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: calc(2.25rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-size: 1.2rem;
+	line-height: 1.6;
+	color: #196cf1;
+	background-color: transparent;
+	background-clip: padding-box;
+	border: 1px solid #196cf1;
+	border-radius: 0;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group-text {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0.375rem 0.75rem;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #495057;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #e9ecef;
+	border: 1px solid #ced4da;
+	border-radius: 0;
+}
+.bg-color{
+    margin-top: 1%;
+    margin-left: 2%;
+    border-bottom: 1px solid #ced4da;
+
+}
+.navbar-light{
+
+}
+.btn-ing{
+    /* Este estilo lo e tomado de https://uigradients.com/#DarkOcean
+	con el fin de mejorar el aspecto de la pagina aun asi, muestro 
+	la pagina en donde la consegui*/
+    color:#ffffff ;
+    border-color: #4286f4;
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #373B44,#4286f4 );  
+    background: linear-gradient(to right,#373B44,#4286f4);
+}
+.btn-ing:hover{
+	color: #ced4da;
+}
+.input-icon{
+    margin-right: 10px;
+}
