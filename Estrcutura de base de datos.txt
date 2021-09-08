@@ -9,3 +9,6 @@ CREATE TABLE usuarios (
   usuario VARCHAR(50) NOT NULL,
   contraseña INT(20) NOT NULL
 );
+
+INSERT INTO `usuarios` (`idusuarios`, `Nombre`, `correo`, `usuario`, `contraseña`)
+VALUES (NULL, 'Edwin', 'Edwin@prueba.com', 'EdwinG', '08092021');
